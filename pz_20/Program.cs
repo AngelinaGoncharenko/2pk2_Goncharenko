@@ -16,13 +16,26 @@
                     result += Char.ToUpper(txt[i]);
                 }
             }
+
+            try
+            {
+                txt = Console.ReadLine();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Исключение: {ex.Message}");
+            }
+            finally
+            {
+                Console.WriteLine("Исключение обработано");
+            }
             return result;
         }
 
         static void Main(string[] args)
         {
             string txt = Console.ReadLine();
-           
+
             Console.WriteLine(GetReverse(txt));
         }
     }
