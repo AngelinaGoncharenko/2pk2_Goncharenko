@@ -4,8 +4,8 @@
     {
         static void Main(string[] args)
         {
-            patient Angelina = new patient();
-            Angelina.Print();
+            BankAccount Angelina1735 = new BankAccount();
+            Angelina1735.Print();
         }
     }
 }
