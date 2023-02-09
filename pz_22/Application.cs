@@ -6,37 +6,45 @@ namespace pz_22
 {
     class Application
     {
+        private int _toner;
         public int ID { get; set; }
         public string Customer { get; set; } = "ClientName";
         public string Vendor { get; set; } = "vendor";
         public string Model { get; set; } = "printer";
-        public int Toner { get; set; } = 5;
-      
 
-        public Application(int id, string customer = "ClientName", string model = "printer", string vendor = "vendor", int toner = 5) //конструктор
+        static int count = 0;
+
+        public int Toner
+        {
+            get { return _toner; }
+            set
+            {
+                if (value > 5 && value < 50)
+                    _toner = value;
+                else
+                    Console.WriteLine("Error! The amount of toner does not correspond to the range of permissible values.");
+            }
+        }
+
+        public Application(int id, string customer, string model, string vendor, int toner) //конструктор
         {
             ID = id;
             Customer = customer;
             Vendor = vendor;
             Model = model;
             Toner = toner;
+            count += toner;
         }
 
-        public int toner   //автосвойство
+        public void UsedToner ()
         {
-            get { return Toner; }
-            set
-            {
-                if (value > 5 && value < 50)
-                    Toner = value;
-           
-            }
+            Console.WriteLine($" Total toner used {count}");
         }
 
         public void GetApplicationInfo()
         {
             Console.WriteLine($"ID: {ID}\n Рrinter model: {Model}\n Vendor: {Vendor}\n Customer: {Customer}\n The amount of toner used: {Toner} gram");
-
+ 
         }
     }
 }
