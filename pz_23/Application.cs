@@ -43,7 +43,7 @@ namespace pz_23
             Console.WriteLine($" Total toner used {count}");
         }
 
-        public void GetApplicationInfo()
+        public virtual void GetApplicationInfo()
         {
             Console.WriteLine($"ID: {ID}\n Рrinter model: {Model}\n Vendor: {Vendor}\n Customer: {Customer}\n The amount of toner used: {Toner} gram");
 

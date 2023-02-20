@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Numerics;
 using System.Reflection;
+using System.Reflection.Metadata.Ecma335;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -10,37 +11,29 @@ namespace pz_23
 {
     internal class ImpossibleApplication : Application
     {
+        private int _reason;
+
         public int Reason
         {
             get { return _reason; }
             set
             {
-                if (value > 5 && value < 50)
-                    _reason = value;
-                else
-                    Console.WriteLine("Error! The printer is not responding! Check for faults! There might be an error in the amount of toner!");
+                if (false)
+                {
+                    Console.WriteLine("the printer is defective, check with the seller for information");
+                }
             }
         }
 
-        public ImpossibleApplication(int id, string customer, string model, string vendor, int toner, int reason)
-        {
-            ID = id;
-            Customer = customer;
-            Vendor = vendor;
-            Model = model;
-            Toner = toner;
-            Reason = reason;
-        }
-
-        public ImpossibleApplication(int reason)
+        public ImpossibleApplication(int id, string customer, string model, string vendor, int toner, int reason) : base(id, customer, model, vendor, toner)
         {
             Reason = reason;
         }
 
         public override void GetApplicationInfo()
         {
-            Console.WriteLine(Reason);
-
+            base.GetApplicationInfo();
+                Console.WriteLine(Reason);
         }
     }
 }
