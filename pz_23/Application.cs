@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
-namespace pz_22
+namespace pz_23
 {
-    class Application
+    internal class Application
     {
         private int _toner;
         public int ID { get; set; }
@@ -36,15 +38,15 @@ namespace pz_22
             count += toner;
         }
 
-        public void UsedToner ()
+        public void UsedToner()
         {
             Console.WriteLine($" Total toner used {count}");
         }
 
-        public virtual void GetApplicationInfo()
+        public void GetApplicationInfo()
         {
             Console.WriteLine($"ID: {ID}\n Рrinter model: {Model}\n Vendor: {Vendor}\n Customer: {Customer}\n The amount of toner used: {Toner} gram");
- 
+
         }
     }
 }

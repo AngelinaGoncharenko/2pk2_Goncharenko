@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.33027.164
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pz_5", "pz_5\pz_5.csproj", "{159BC09D-1E77-4643-B0E4-42BABB50E682}"
 EndProject
@@ -53,7 +53,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Class_ageEmployee", "Class_
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pz_21", "pz_21\pz_21.csproj", "{C00B8F32-DE02-4F2E-B254-AD9D502C524A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pz_22", "pz_22\pz_22.csproj", "{FF55FEAA-58AC-4874-84AE-D04F9AF24227}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pz_22", "pz_22\pz_22.csproj", "{FF55FEAA-58AC-4874-84AE-D04F9AF24227}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pz_23", "pz_23\pz_23.csproj", "{C2A6A9DE-984F-4927-BBD1-1F5A7B237392}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -165,6 +167,10 @@ Global
 		{FF55FEAA-58AC-4874-84AE-D04F9AF24227}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF55FEAA-58AC-4874-84AE-D04F9AF24227}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF55FEAA-58AC-4874-84AE-D04F9AF24227}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2A6A9DE-984F-4927-BBD1-1F5A7B237392}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2A6A9DE-984F-4927-BBD1-1F5A7B237392}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2A6A9DE-984F-4927-BBD1-1F5A7B237392}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2A6A9DE-984F-4927-BBD1-1F5A7B237392}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
