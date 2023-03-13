@@ -81,9 +81,8 @@ namespace pz_25
         private double Calculation(string expression)
         {
             double a = double.Parse(infoTextBlock.Text);
-            double b = double.Parse(infoTextBlock.Text);
-
             char action = char.Parse(infoTextBlock.Text);
+            double b = double.Parse(infoTextBlock.Text);
 
             switch(action)
             {

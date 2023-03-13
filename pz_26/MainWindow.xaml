@@ -18,19 +18,20 @@
                 <MenuItem Header="О программе" ></MenuItem>
             </Menu>
             <WrapPanel MinHeight ="20">
-                <Button x:Name = "butItalic" Width="30" Height="30">
-                 <Image Source="/icon/italic_em_emphasis_format_editor_tool_icon_145968.png" />
-                </Button>
-                <Button x:Name = "butBold" Width="30" Height="30">
+                <Button x:Name = "butItalic" Width="30" Height="30" ToolTip="Курсив">
+                    <Image Source="/icon/italic_em_emphasis_format_editor_tool_icon_145968.png" />
+                </Button>
+                <Button x:Name = "butBold" Width="30" Height="30" ToolTip="Полужирный">
                  <Image Source="/icon/bold_format_editor_tool_icon_146015.png" />
                 </Button>
-                <Button x:Name = "butUnderline" Width="30" Height="30">
+                <Button x:Name = "butUnderline" Width="30" Height="30" ToolTip="Подчеркнутый">
                  <Image Source="/icon/underline_format_editor_tool_icon_145920.png" />
                 </Button>
             </WrapPanel>
         </StackPanel>
         <StatusBar DockPanel.Dock="Bottom" MinHeight ="20" Background="Gray"></StatusBar>
         <ListBox  MinWidth = "200" Background="LightGray"></ListBox>
+
         <RichTextBox></RichTextBox>
     </DockPanel>
 </Window>

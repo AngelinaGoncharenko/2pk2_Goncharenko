@@ -30,5 +30,14 @@ namespace pz_26
             MenuItem menuItem = (MenuItem)sender;
             MessageBox.Show(menuItem.Header.ToString());
         }
+
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            
+
+            TextBox textBox = (TextBox)sender;
+            
+            
+        }
     }
 }
