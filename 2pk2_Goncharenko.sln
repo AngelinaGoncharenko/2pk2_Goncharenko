@@ -55,7 +55,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pz_24", "pz_24\pz_24.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pz_26", "pz_26\pz_26.csproj", "{0832F2EC-044D-4F38-9073-CCCDDF422511}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pz_25", "pz_25\pz_25.csproj", "{7D45B035-91D8-4097-ACAC-4B0650056689}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pz_25", "pz_25\pz_25.csproj", "{7D45B035-91D8-4097-ACAC-4B0650056689}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
