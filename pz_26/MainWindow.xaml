@@ -5,28 +5,23 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:pz_26"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" MinHeight="450" MinWidth="800">
     <DockPanel>
         <StackPanel DockPanel.Dock="Top">
             <Menu MinHeight="20" Background="#FFDDDDDD">
                 <MenuItem Header="Файл" Click="MenuItem_Click">
-                    <MenuItem Header="Новый" >
-                        
-                    </MenuItem>
-                    <MenuItem Header="Открыть" >
-                        
-                    </MenuItem>
-                    <MenuItem Header="Сохранить" >
-                        <Image Source="/icon/savetheapplication_guardar_2958.png" />
-                    </MenuItem>
-                    <MenuItem Header="Удалить" >
-                    </MenuItem>
+                    <MenuItem Header="Новый" ></MenuItem>
+                    <MenuItem Header="Открыть" ></MenuItem>
+                    <MenuItem Header="Сохранить"></MenuItem>
+                    <MenuItem Header="Удалить" ></MenuItem>
                 </MenuItem>
                 <MenuItem Header="О программе" >
                     <MenuItem Header="Vk" ></MenuItem>
                     <MenuItem Header="Inst" ></MenuItem>
-                    <MenuItem Header="+7(909)-610-84-17" ></MenuItem>
+                    <MenuItem Header="Git" ></MenuItem>
                 </MenuItem>
+            </Menu>
+            <WrapPanel>
                 <Button x:Name = "butItalic" Width="30" Height="30" ToolTip="Курсив">
                     <Image Source="/icon/italic_em_emphasis_format_editor_tool_icon_145968.png" />
                 </Button>
@@ -36,12 +31,10 @@
                 <Button x:Name = "butUnderline" Width="30" Height="30" ToolTip="Подчеркнутый">
                     <Image Source="/icon/underline_format_editor_tool_icon_145920.png" />
                 </Button>
-                
-            </Menu>
+            </WrapPanel>
         </StackPanel>
         <StatusBar DockPanel.Dock="Bottom" MinHeight ="20" Background="Gray"></StatusBar>
         <ListBox  MinWidth = "200" Background="LightGray"></ListBox>
-
-        <RichTextBox></RichTextBox>
+        <RichTextBox AcceptsTab="True" SpellCheck.IsEnabled="True" Language="ru-ru"></RichTextBox>
     </DockPanel>
 </Window>
