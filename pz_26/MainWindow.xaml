@@ -10,7 +10,7 @@
         <StackPanel DockPanel.Dock="Top">
             <Menu MinHeight="20" Background="#FFDDDDDD">
                 <MenuItem Header="Файл" Click="MenuItem_Click">
-                    <MenuItem Header="Новый" ></MenuItem>
+                    <MenuItem Header="Новый" Click="newFileMenuItem_Click"></MenuItem>
                     <MenuItem Header="Открыть" ></MenuItem>
                     <MenuItem Header="Сохранить"></MenuItem>
                     <MenuItem Header="Удалить" ></MenuItem>

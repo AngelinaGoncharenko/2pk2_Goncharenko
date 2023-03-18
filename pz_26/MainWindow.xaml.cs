@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO.Enumeration;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -30,14 +31,18 @@ namespace pz_26
             MenuItem menuItem = (MenuItem)sender;
             MessageBox.Show(menuItem.Header.ToString());
         }
-
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
-            
-
-            TextBox textBox = (TextBox)sender;
-            
-            
+            TextBox textBox = (TextBox)sender;  
         }
+        private void newFileMenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            CreateFileWindow createFileWindow = new CreateFileWindow();
+            if (true)
+            {
+                MessageBox.Show("Файл создан");
+            }
+        }
+
     }
 }
