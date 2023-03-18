@@ -38,10 +38,8 @@ namespace pz_26
         private void newFileMenuItem_Click(object sender, RoutedEventArgs e)
         {
             CreateFileWindow createFileWindow = new CreateFileWindow();
-            if (true)
-            {
-                MessageBox.Show("Файл создан");
-            }
+            if (createFileWindow.ShowDialog() == true)
+               filename = createFileWindow.FileName;
         }
 
     }

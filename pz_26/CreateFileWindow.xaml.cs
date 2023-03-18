@@ -28,5 +28,11 @@ namespace pz_26
         {
             this.DialogResult = true;
         }
+
+        public string FileName
+        {
+            get { return fileNameBox.Text; }
+        }
+
     }
 }
