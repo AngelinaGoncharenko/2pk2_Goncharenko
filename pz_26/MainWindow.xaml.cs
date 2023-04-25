@@ -21,6 +21,8 @@ namespace pz_26
     /// </summary>
     public partial class MainWindow : Window
     {
+        private string filename;
+
         public MainWindow()
         {
             InitializeComponent();
