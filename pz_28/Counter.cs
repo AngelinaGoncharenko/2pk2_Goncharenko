@@ -5,7 +5,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace pz_28.var1
+namespace pz_28
 {
     internal class Counter
     {
@@ -21,7 +21,7 @@ namespace pz_28.var1
             for (int i = 1; i < 1001; i++)
             {
                 a.ActiveateEvent(i);
-
+                Console.WriteLine(i);
                 if (i == 800) break;
             }
         }

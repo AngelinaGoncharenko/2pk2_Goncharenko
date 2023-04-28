@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace pz_28.var1
+namespace pz_28
 {
     public class TargetOutput   //вывод цели
     {

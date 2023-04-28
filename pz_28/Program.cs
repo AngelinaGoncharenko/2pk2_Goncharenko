@@ -3,7 +3,7 @@ using System.Diagnostics.Metrics;
 
 public delegate void Delegate();
 
-namespace pz_28.var1
+namespace pz_28
 {
     internal class Program
     {
