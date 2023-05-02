@@ -55,11 +55,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pz_24", "pz_24\pz_24.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pz_25", "pz_25\pz_25.csproj", "{7D45B035-91D8-4097-ACAC-4B0650056689}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pz_28", "pz_28\pz_28.csproj", "{1125BC86-798B-42D9-A9A2-DB365935A58A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pz_28_var1", "pz_28\pz_28_var1.csproj", "{1125BC86-798B-42D9-A9A2-DB365935A58A}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pz_28_var3", "pz_28_var3\pz_28_var3.csproj", "{F1170026-74A0-4A11-9DDC-3786B7537841}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pz_26", "pz_26\pz_26.csproj", "{23AC254E-1A2D-43B5-A402-1D865312A182}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pz_26", "pz_26\pz_26.csproj", "{23AC254E-1A2D-43B5-A402-1D865312A182}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
