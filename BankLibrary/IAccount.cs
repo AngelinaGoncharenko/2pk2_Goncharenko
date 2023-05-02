@@ -8,5 +8,6 @@ namespace BankLibrary
 {
     internal interface IAccount
     {
+        
     }
 }

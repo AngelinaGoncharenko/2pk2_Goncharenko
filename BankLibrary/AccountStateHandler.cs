@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace BankLibrary
 {
-    internal class AccountStateHandler
+    public class AccountStateHandler
     {
+
     }
 }
