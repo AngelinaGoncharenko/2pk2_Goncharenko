@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace pz_26
+namespace GoncharenkoTR
 {
     /// <summary>
     /// Interaction logic for App.xaml

@@ -7,4 +7,16 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="source\bold.png" />
+    <None Remove="source\italic.png" />
+    <None Remove="source\under.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="source\bold.png" />
+    <Resource Include="source\italic.png" />
+    <Resource Include="source\under.png" />
+  </ItemGroup>
+
 </Project>

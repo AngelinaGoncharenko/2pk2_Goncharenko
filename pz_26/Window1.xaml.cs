@@ -12,27 +12,16 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace pz_26
+namespace GoncharenkoTR
 {
     /// <summary>
-    /// Логика взаимодействия для CreateFileWindow.xaml
+    /// Логика взаимодействия для Window1.xaml
     /// </summary>
-    public partial class CreateFileWindow : Window
+    public partial class Window1 : Window
     {
-        public CreateFileWindow()
+        public Window1()
         {
             InitializeComponent();
         }
-
-        private void Accept_Click(object sender, RoutedEventArgs e)
-        {
-            this.DialogResult = true;
-        }
-
-        public string FileName
-        {
-            get { return fileNameBox.Text; }
-        }
-
     }
 }
