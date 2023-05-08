@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace BankLibrary
 {
-    internal interface IAccount
+    public interface IAccount
     {
-        
+        // опишите метод пополнения счета – void Put(decimal sum
+        void Put(decimal sum);
+        // опишите метод снятия со счета – decimal Withdraw(decimal sum)
+        decimal Withdraw(decimal sum);
     }
 }
