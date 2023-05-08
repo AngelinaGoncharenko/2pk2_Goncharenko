@@ -24,7 +24,7 @@ namespace pz_27
         {
             Random rnd = new Random();
 
-            Note[] blocknote = new Note[3]; //ввести в консоль 8 контактов
+            Note[] blocknote = new Note[8];
             int[] BdayArr = new int[3];
 
             Console.WriteLine("Имя контакта:");
