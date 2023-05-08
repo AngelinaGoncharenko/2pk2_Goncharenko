@@ -4,7 +4,7 @@ namespace pz_27
 {
     struct Note
     {
-        public string Name = "контакт";
+        public string Name;
         public long Tele;
         public int[] Bday = new int[3];
 
