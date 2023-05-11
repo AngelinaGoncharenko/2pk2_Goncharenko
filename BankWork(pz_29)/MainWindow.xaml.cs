@@ -27,6 +27,32 @@ namespace BankWork_pz_29_
 
         private void OpenItem_Click(object sender, RoutedEventArgs e)
         {
+            OpenWindow oiw= new OpenWindow();
+            oiw.Show();
+        }
+
+        private void AddItem_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void SkipItem_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void remItem_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void OutputItem_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void LogOutItem_Click(object sender, RoutedEventArgs e)
+        {
 
         }
     }
