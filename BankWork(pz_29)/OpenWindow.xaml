@@ -5,8 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BankWork_pz_29_"
         mc:Ignorable="d"
-        Title="OpenWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+        Title="AddItemWindow" Height="150" Width="370">
+    <StackPanel HorizontalAlignment="Center">
+        <Label Content="Укажите сумму для создания счета" HorizontalAlignment="Center"/>
+        <TextBox x:Name="nameTB" MinWidth="300" TextChanged="nameTB_TextChanged"/>
+
+        <Label Content="Выберите тип счета" HorizontalAlignment="Center"/>
+        <Button x:Name="DemandItem" Content="До востребования" Click="DemandItem_Click"/>
+        <Button x:Name="DepositItem" Content="Депозит" Click="DepositItem_Click"/>
+
+    </StackPanel>
 </Window>

@@ -28,5 +28,10 @@ namespace BankWork_pz_29_
         {
 
         }
+
+        private void DepositItem_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
