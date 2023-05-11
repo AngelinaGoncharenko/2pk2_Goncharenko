@@ -67,7 +67,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankLibrary", "BankLibrary\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pz_27", "pz_27\pz_27.csproj", "{ED549698-F27E-46C3-995E-D36EB3DE2E09}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pz_29", "pz_29\pz_29.csproj", "{68555B43-3176-43D8-9A8A-5F22820A71DA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankWork(pz_29)", "BankWork(pz_29)\BankWork(pz_29).csproj", "{14B91CEB-B8E1-40F1-8196-348D7B03CEE2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -203,10 +203,10 @@ Global
 		{ED549698-F27E-46C3-995E-D36EB3DE2E09}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED549698-F27E-46C3-995E-D36EB3DE2E09}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED549698-F27E-46C3-995E-D36EB3DE2E09}.Release|Any CPU.Build.0 = Release|Any CPU
-		{68555B43-3176-43D8-9A8A-5F22820A71DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{68555B43-3176-43D8-9A8A-5F22820A71DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{68555B43-3176-43D8-9A8A-5F22820A71DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{68555B43-3176-43D8-9A8A-5F22820A71DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14B91CEB-B8E1-40F1-8196-348D7B03CEE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14B91CEB-B8E1-40F1-8196-348D7B03CEE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14B91CEB-B8E1-40F1-8196-348D7B03CEE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14B91CEB-B8E1-40F1-8196-348D7B03CEE2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
