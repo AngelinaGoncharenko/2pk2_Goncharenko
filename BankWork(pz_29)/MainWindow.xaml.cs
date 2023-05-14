@@ -27,7 +27,7 @@ namespace BankWork_pz_29_
 
         private void OpenItem_Click(object sender, RoutedEventArgs e)
         {
-            OpenWindow oiw= new OpenWindow();
+            OpenWindow oiw = new OpenWindow();
             oiw.Show();
         }
 
